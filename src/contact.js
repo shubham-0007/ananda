@@ -74,7 +74,7 @@ render() {
           <div className="navbar-inner">
               <div className="container">
  <button type="button" className="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span className="icon-bar"></span> <span className="icon-bar"></span> <span className="icon-bar"></span> </button>
-      <a className="brand" href="">Ananda</a>
+      <a className="brand" href="">Aananda</a>
      
               <div className="nav-collapse collapse">
         <ul className="nav">
@@ -126,7 +126,7 @@ render() {
 	</div>
 </div>
     <div className="greet_contact" style={{"color": "white"}}>
-  YOU CAN DO QUERRY REGARDING THE ANANDA BY CALLING ON THE NUMBER :- +91-9466611224, +91-9729061000 <br/> <br/>  <br/>OR YOU CAN DROP YOUR EMAIL IN THE UNDERSIGNED MESSAGE BOX BY CLICKING ON CONTACT BUTTON AND AFTER TYPING YOUR MESSAGE CLICK ON SEND BUTTON
+  YOU CAN DO QUERRY REGARDING THE Aananda BY CALLING ON THE NUMBER :- +91-9466611224, +91-9729061000 <br/> <br/>  <br/>OR YOU CAN DROP YOUR EMAIL IN THE UNDERSIGNED MESSAGE BOX BY CLICKING ON CONTACT BUTTON AND AFTER TYPING YOUR MESSAGE CLICK ON SEND BUTTON
 
     </div>
        <div className="envelope">

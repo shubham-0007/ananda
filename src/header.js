@@ -36,7 +36,7 @@ render() {
 
                <div className="header">
 			<div className="logo">
-            	<img src="image/Aananda-logo.png"/>
+            	<img src="image/ananda-logo.png"/>
             </div>
             <table className="social">
             	<tr>

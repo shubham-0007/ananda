@@ -24,13 +24,13 @@ render() {
       <div  className = "row">
 
 <div className= "col-md-12" style={{"background": "rgba(255,255,255,.5)", "marginTop": "200px","font-size":"4px","padding-bottom":"5%"}}>
-<h2>Rules for living in Ananda </h2>
+<h2>Rules for living in Aananda </h2>
 
 <h4>
        <ol>
   <li style={{"marginTop":"5%","text-align":"left","font-size": "large"}}><span style={{"font-size": "16.0pt",
     "font-family": "Symbol",
-    "color": "#3D3D3D"}}>  <img className="img-responsive" src="../image/para.png" width="47px" height="43px" style ={{"marginLeft":"-6%"}}/> </span>In the Moksha  Meditiation Welfare Society, the aim of Ananda is to serve the elderly people with honor in such a manner  that their experience of life could be spread in the young generation and the  society as a whole. For fulfillment of the above goal, the Society has to  search the field of interest of each and every inmate and the knowledge and experience  will be utilized in education like teaching of students, writing of articles   etc. Those inmates who are having interest in different designs such as fine  art, costumes and other items, shall be utilized for the developments of those  fields. For the above activities no any fee will be given to inmates by theSociety.
+    "color": "#3D3D3D"}}>  <img className="img-responsive" src="../image/para.png" width="47px" height="43px" style ={{"marginLeft":"-6%"}}/> </span>In the Moksha  Meditiation Welfare Society, the aim of Aananda is to serve the elderly people with honor in such a manner  that their experience of life could be spread in the young generation and the  society as a whole. For fulfillment of the above goal, the Society has to  search the field of interest of each and every inmate and the knowledge and experience  will be utilized in education like teaching of students, writing of articles   etc. Those inmates who are having interest in different designs such as fine  art, costumes and other items, shall be utilized for the developments of those  fields. For the above activities no any fee will be given to inmates by theSociety.
  </li>
  <li style={{"marginTop":"5%","text-align":"left","font-size": "large"}}><span style={{"font-size": "16.0pt",
     "font-family": "Symbol",
@@ -72,7 +72,7 @@ render() {
 </h4>
 
 
-<h3> For any querry regarding Admission in Ananda   </h3>
+<h3> For any querry regarding Admission in Aananda   </h3>
 <div className="Footr_admis">
 <div className="call_admis" style={{"marginRight": "27%","marginTop":"4%"}}>
 <span ><img src="../image/phone.png" className="img-responsive" width="7%" />  </span>
@@ -82,7 +82,7 @@ render() {
 </div>
 <div className="loc_admis" style={{"marginLeft": "4%","marginTop":"4%"}}>
 <span > <img src="../image/address.png" className="img-responsive"  width="7%"/>  </span>
-<span style={{"font-size": "x-large"}}>  Ananda,	  
+<span style={{"font-size": "x-large"}}>  Aananda,	  
 8th Km Milestone Kaimiri Road,
 Hisar-125001
 Haryana

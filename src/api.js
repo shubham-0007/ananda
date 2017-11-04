@@ -14,7 +14,7 @@ module.exports = {
            var mailOptions = {
     from: 'anandahisar@gmail.com', // sender address
     to:  'vijay.bhrigu@gmail.com', // list of receivers
-    subject: 'Verificatio n Code', // Subject line //, // plaintext body
+    subject: 'Verification Code', // Subject line //, // plaintext body
     html: '<h2> The Mail Id is:- </h2>' +" "+ arg.email+ "<br>"+'<h2> The User is:- </h2>' +" "+ arg.name+ "<br>" + '<h2> Message is:-</h2>'+" "+arg.message+ " " // You can choose to send an HTML body instead
 };
 transporter.sendMail(mailOptions, function(error, info){
@@ -27,7 +27,7 @@ transporter.sendMail(mailOptions, function(error, info){
         console.log('Message sent: ' + info.response);
        /* res.json({yo: info.response});
        */
-       return callback(null,"res+ult");
+       return callback(null,"result");
    };
 });
 },

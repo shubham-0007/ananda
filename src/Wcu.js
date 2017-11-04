@@ -15,9 +15,9 @@ render() {
     		<div className="wcu_title">Why Choose Us</div>
             <div className="left_wcu">
             	<h2 style={{"background-color":"wheat","color":"black"}}>A Home Away from Home</h2>
-                <p className="left_wcu_t">Ananda is a Home for house Senior Citizens who are economically well-off and resourceful but due to certain prevailing circumstance they are aloof, fearful and worried about their future.<br /><br />
+                <p className="left_wcu_t">Aananda is a Home for house Senior Citizens who are economically well-off and resourceful but due to certain prevailing circumstance they are aloof, fearful and worried about their future.<br /><br />
 
-Hence, ANANDA is a "one step promise ahead" to ensure loving and worthy life. It is one to the meaningful effort for blissful and indigenous. Home with all requisite facilities including medical etc. (e.g. cancer, Bypass Surgeries)
+Hence, Aananda is a "one step promise ahead" to ensure loving and worthy life. It is one to the meaningful effort for blissful and indigenous. Home with all requisite facilities including medical etc. (e.g. cancer, Bypass Surgeries)
 </p>
 			<div className="button_2"><Link to="Admission" className="btn-new">Read More</Link></div>
             </div>

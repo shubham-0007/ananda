@@ -596,7 +596,7 @@ h4{
 	background-image:url("../image/testi_bg.png");
 	background-repeat:no-repeat;
 	height:308px;
-	padding-top: 30px;
+	padding-top: 50px;
 	margin-top:60px;
 	float:left;
 	}
@@ -606,6 +606,7 @@ h4{
 	width:70%;
 	margin:auto;
 	padding-top:69px;
+	font-size: 2em;
 	}
 	
 .right_testi{
@@ -936,8 +937,18 @@ color: azure;
    .meservice .Lodg {
   	margin-top: 3%;
   }
+  .testi_ana {
+  	font-size:30px;
+  }
 
 	@media (max-width: 770px) {
+		.wcu h2 {
+			font-size: 17.5px;
+		}
+		.testi_ana {
+  	font-size:14px;
+  }
+
               .blog{
 
       height: 1200px;
@@ -1041,6 +1052,7 @@ flex-direction: column;
     } 
     .testi_t {
     	padding-top: 64px;
+    	font-size: 14px;
 
     }
     .footer {

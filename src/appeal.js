@@ -23,7 +23,7 @@ render() {
       <div  className = "row">
 
 <div className= "col-md-12" style={{"background": "rgba(255,255,255,.5)", "marginTop": "200px","font-size":"4px"}}>
-<h2>Appeal by Ananda </h2>
+<h2>Appeal by ananda </h2>
 
   <div className="appeal_contnt">
 
