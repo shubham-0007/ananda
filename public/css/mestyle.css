@@ -681,7 +681,7 @@ h4{
 .contact_e{
 	width:30%;
 	float:left;
-	margin-left:50px;
+	margin-left:25px;
 	background-image:url("../image/email_icon.png");
 	background-repeat:no-repeat;
 	
@@ -1107,6 +1107,18 @@ flex-direction: column;
     	margin-top: -20px;
     }
 }
+@media (max-width: 1252px) {
 
-   
+   .contact_l {
+    	width: 100%;
+    }
+    .contact_e {
+    	width: 100%;
+    	margin-left: 0px;
+    }
+    .contact_c {
+    	width: 100%;
+    }
+
+   }
 
