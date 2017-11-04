@@ -14,7 +14,7 @@ render() {
           <div className="navbar-inner">
               <div className="container">
  <button type="button" className="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span className="icon-bar"></span> <span className="icon-bar"></span> <span className="icon-bar"></span> </button>
-      <a className="brand" href="">Ananda</a>
+      <a className="brand" href="">Aananda</a>
      
               <div className="nav-collapse collapse">
         <ul className="nav">
@@ -36,7 +36,7 @@ render() {
 
                <div className="header">
 			<div className="logo">
-            	<img src="image/ananda-logo.png"/>
+            	<img src="image/Aananda-logo.png"/>
             </div>
             <table className="social">
             	<tr>

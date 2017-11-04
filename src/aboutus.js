@@ -25,8 +25,8 @@ render() {
 <h2> About Us </h2>
 
        <h4 style={{"marginTop":"2%"}}> 
-  Ananda is a Home for house Senior Citizens who are economically well-off and resourceful but due to certain prevailing circumstance they are aloof, fearful and worried about their future.
-The Working Efforts of The Ananda Could Make Possible Because of the Active Members of the Ananda  which make efforts to Maintain this type of Organisation and this are :-   
+  Aananda is a Home for house Senior Citizens who are economically well-off and resourceful but due to certain prevailing circumstance they are aloof, fearful and worried about their future.
+The Working Efforts of The Aananda Could Make Possible Because of the Active Members of the Aananda  which make efforts to Maintain this type of Organisation and this are :-   
 
 
 

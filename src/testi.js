@@ -27,7 +27,7 @@ render() {
                 	<img src="image/testi_img.jpg" style={{"border-radius":"50%","height": "52%"}}/>
                     <h4 style={{"marginTop":"2%","font-family": "serif",
     "color": "#656565",
-    "font-size": "15px"}}>Founder,Ananda</h4>
+    "font-size": "15px"}}>Founder,Aananda</h4>
                     <p className="right_testi_t" style={{"marginTop":"2%","font-family": "serif",
     "font-weight": "bold"
 }}>Mr. Vijay Bhrigu</p>

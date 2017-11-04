@@ -26,8 +26,8 @@ render() {
 <h2> Our Services </h2>
 
        <h4> 
-  Ananda is a Home for house Senior Citizens who are economically well-off and resourceful but due to certain prevailing circumstance they are aloof, fearful and worried about their future.
-  Ananda provides diffrent types of services from Hospatility to the Food all in the very low Cost which never feels the Senior Citizens that they away from their home Our Fiffrent Services are as Follows:-
+  Aananda is a Home for house Senior Citizens who are economically well-off and resourceful but due to certain prevailing circumstance they are aloof, fearful and worried about their future.
+  Aananda provides diffrent types of services from Hospatility to the Food all in the very low Cost which never feels the Senior Citizens that they away from their home Our Fiffrent Services are as Follows:-
 
 
 
@@ -43,7 +43,7 @@ render() {
 <h3>LODGING</h3>
 
        <h4> 
-  Ananda provides the Facility of LODGING to the Senior Citizen. 
+  Aananda provides the Facility of LODGING to the Senior Citizen. 
       
   
 
@@ -77,7 +77,7 @@ render() {
 <h3>	 BOARDING</h3>
 
        <h4> 
- Ananda provides the Facility of BOARDING to the Senior Citizen.
+ Aananda provides the Facility of BOARDING to the Senior Citizen.
       
   
 
@@ -111,7 +111,7 @@ render() {
 <h3>ELECTRICITY</h3>
 
        <h4> 
-   Ananda provides the Facility of ELECTRICITY to the Senior Citizen.
+   Aananda provides the Facility of ELECTRICITY to the Senior Citizen.
       
   
 
@@ -145,7 +145,7 @@ render() {
 <h3>LAUNDARY</h3>
 
        <h4> 
-   Ananda provides the Facility of LAUNDARY to the Senior Citizen.
+   Aananda provides the Facility of LAUNDARY to the Senior Citizen.
       
   
 
@@ -177,7 +177,7 @@ render() {
 <h3>COMPLETE MEDICAL FACILITY EXCEPT(CANCER, HEART SURGERY)</h3>
 
        <h4> 
-   Ananda provides the COMPLETE MEDICAL FACILITY EXCEPT(CANCER, HEART SURGERY)  to the Senior Citizen and also Ananda is the FIRST REHABILATION HOUSE FOR SENIOR CITIZEN IN INDIA who provides this type of Service. Its the Proud Movement for the Ananda.
+   Aananda provides the COMPLETE MEDICAL FACILITY EXCEPT(CANCER, HEART SURGERY)  to the Senior Citizen and also Aananda is the FIRST REHABILATION HOUSE FOR SENIOR CITIZEN IN INDIA who provides this type of Service. Its the Proud Movement for the Aananda.
       
   
 
