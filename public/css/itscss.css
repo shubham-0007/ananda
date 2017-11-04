@@ -280,6 +280,89 @@ textarea {
 }
 
 @media (max-width: 767px) {
+  #message_label{
+
+    margin-left: -8%; 
+  }
+   
+   .top_flap {
+    display: none;
+   }
+   .bottom_flap {
+    display: none;
+   }
+  .envelope {
+    position: relative;
+    margin: 130% 35%;
+    width: 39%;
+    height: 400px;
+    background: #ee787c;
+    z-index: 999;
+  }
+  .contact_form {
+    width: 65%;
+  }
+  .open_form {
+    height: 700px !important;
+  }
+  .side_flaps:before{
+        border-left: 181px solid #f18e92;
+    border-top: 200px solid transparent;
+    border-bottom: 200px solid transparent;
+  }
+.side_flaps:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-right: 170px solid #f18e92;
+    border-top: 200px solid transparent;
+    border-bottom: 175px solid transparent;
+    z-index: 10;
+
+  }
+
+
+.envelope p {
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 76px;
+    z-index: 999999999;
+    font-family: 'NexaBold';
+    font-size: 23px;
+    display: inline;
+    margin: 0 auto;
+    width: 109px;
+    height: 50px;
+    border-bottom: 3px solid #9f1419;
+    text-align: center;
+    color: #ffffff;
+    background: #e5343a;
+    cursor: pointer;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+    line-height
+}
+  .form_part {
+  width: 90%;
+  margin: -9px auto;
+  position: relative;
+}
+input {
+  font-size: 13px;
+}
+
+
+}
+
+@media (max-width: 1150px) {
    
    .top_flap {
     display: none;
