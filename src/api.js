@@ -14,8 +14,8 @@ module.exports = {
            var mailOptions = {
     from: 'anandahisar@gmail.com', // sender address
     to:  'vijay.bhrigu@gmail.com', // list of receivers
-    subject: 'Verification Code', // Subject line //, // plaintext body
-    html: '<h2> The Mail Id is:- </h2>' +" "+ arg.email+ "<br>"+'<h2> The User is:- </h2>' +" "+ arg.name+ "<br>" + '<h2> Message is:-</h2>'+" "+arg.message+ " " // You can choose to send an HTML body instead
+    subject: 'New Aaanada Website User Querry', // Subject line //, // plaintext body
+    html: 'Hello Sir,The Following Person Wants to Querry from you Regarding the Aaanada  '+"<br/>"+'<h2> The Mail Id is:- </h2>' +" "+ arg.email+ "<br>"+'<h2> Name is:- </h2>' +" "+ arg.name+ "<br>" + '<h2> Message is:-</h2>'+" "+arg.message+ " " // You can choose to send an HTML body instead
 };
 transporter.sendMail(mailOptions, function(error, info){
     if(error){
