@@ -1,0 +1,130 @@
+<!Doctype html>
+<html>
+<head>
+    
+    <style>
+    
+.blog{
+    width:100%;
+    max-width:80%;
+    margin:auto;
+    height:565px;
+    padding: 7%;
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-between;
+    }
+.blog_1{
+    overflow:hidden; 
+    width: 32%;
+    background-color: #ededed;
+    height: 95%;
+    float:left;
+    margin-right:0;
+    padding: 0px;
+    display: flex;     
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;      
+
+    }
+    
+
+    .card_heading{
+    color:#e86920;
+    flex:1;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    }   
+.f_text{
+    text-align:center;
+    flex: 1;
+    margin:auto;
+}
+
+.button_1{
+    margin:auto;
+    width:150px;
+    flex: 1;
+    padding-top:40px;
+    }   
+    
+.button_1 a{
+    text-decoration:none;
+    color:#e86920;
+    padding:10px 30px;
+    border:2px solid #e86920;
+
+    }   
+
+.blog_img{
+    flex: 1;
+    background-image:url("public/image/blog_bg.png");
+        padding: 34px 99px 77px 96px;
+        background-repeat: no-repeat;
+    
+    }
+@media only screen and (max-width: 767px){
+        .blog{
+      height: 1200px;
+flex-direction: column;
+        }
+        .blog_1{
+        width: 100%;
+       height: 600px;
+       margin-top: 20px;
+
+         /* To make the transition work nicely. (Transitions to/from
+                        "width:auto" are buggy in Gecko and Webkit, at least.
+                        See http://bugzil.la/731886 for more info.) */
+        
+    }
+    .blog_img > img{
+     height: 62px;
+     width: 62px;
+    }
+    .blog_img{
+    background-size: contain;
+    padding: 30px 102px 76px 66px; 
+   
+    }
+    }
+ 
+
+    </style>
+</head>
+<body>
+<div class="blog">
+
+            <div class="blog_1">
+         
+           <div class="blog_img"><img src="public/image/facility_icon.png" /></div>
+                     <div class="card_heading">FACILITIES</div>
+                <p class="f_text">Lodging, boarding, Laundry, <br />
+electricity,  and complete medical facility except(cancer, hard surgery)</p>
+                <div class="button_1"><a class="btn-8" href="#">Read More</a></div>
+                
+            </div>
+            
+            <div class="blog_1">
+         
+                <div class="blog_img"><img src="public/image/facility_icon.png" /></div>
+                <div class="card_heading">HOME CHOICES</div>
+                <p class="f_text">4 lakh Deposit and twenty thousand per/month. (single occupancy) </p>
+                <div class="button_1">    <a class="btn-8" href="#">Read More</a></div>
+                
+            </div>
+            
+            <div class="blog_1">
+         
+                <div class="blog_img"><img src="public/image/facility_icon.png" /></div>
+                <div class="card_heading">STARf</div>
+                <p class="f_text">4 lakh deposit and 40,000 p/m <br />(for couples)
+one time deposit 20 lakh no monthly charges)</p>
+                <div class="button_1"><a class="btn-8" href="#">Read More</a></div>
+                
+            </div>
+        
+        </div></body></html>
+ 
