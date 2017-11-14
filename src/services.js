@@ -2,16 +2,24 @@ import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
 import Header from './header.js';
 import Footer from './footer.js'
-
+import $ from 'jquery';
   class Services extends Component {
   constructor() {
     super();
 
     };
+    componentWillMount() {
+       $(window).bind("load", function () {
+        $('.work-in-progress').fadeOut(100);
+    });
+    }
 
 render() {
     return(
         <div className="meservice">
+            <div className="work-in-progress">
+        <div className="work-spinner"></div>
+    </div>
         <div>
 
 <Header /> 
