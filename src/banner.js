@@ -24,8 +24,8 @@ render() {
                     <p className="a_title"><span style={{"color":"#e9702b"}}>Aa</span>nanda<br />(A Privileged Home)</p>
                     <p className="t_text">Smile Is natural phenomena and we maintain it.</p><br />
                     <marquee> <p className="w_text">Welcome to Aananda. Have A Nice Day</p> </marquee><br />
-                    <p className="p_text">Aananda is a Home for house Senior Citizens who are 
-economically well-off and resourceful but due to certain prevailing circumstance they are aloof, fearful and worried about their future.</p>
+                    <p className="p_text">Aananda is a Senior Citizens Home for economically<br/> well-off and resourceful
+                     seniors who are living aloof, fearful and worried about their future due to personal circumstances.</p>
                     <div className="button"><Link to ="/About" className="btn-bnr" >Read More</Link></div>
                 
                 </div>
