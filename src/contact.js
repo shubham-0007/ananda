@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
 import Footer from './footer.js'
 import $ from 'jquery';
+import Header from './header';
   class Contact extends Component {
   constructor() {
     super();
@@ -69,7 +70,8 @@ componentDidMount() {
 render() {
     return(
     	<div className="cont_main"> 
-    			<div>
+        <Header />
+    			{/* <div>
 		<div className = "navbar navbar-inverse navbar-fixed-top">
           <div className="navbar-inner">
               <div className="container">
@@ -124,7 +126,7 @@ render() {
             </div>
            <div style={{"clear" :"both"}}></div>
 	</div>
-</div>
+</div> */}
     <div className="greet_contact" style={{"color": "white"}}>
   YOU CAN DO QUERRY REGARDING THE Aananda BY CALLING ON THE NUMBER :- +91-9466611224, +91-9729061000 <br/> <br/>  <br/>OR YOU CAN DROP YOUR EMAIL IN THE UNDERSIGNED MESSAGE BOX BY CLICKING ON CONTACT BUTTON AND AFTER TYPING YOUR MESSAGE CLICK ON SEND BUTTON
 

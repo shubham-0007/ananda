@@ -27,13 +27,13 @@ Swami (Dinod),Hisar</p>
             </div>
         </div>
          <div style={{"clear":"both"}}></div>
-        <div className="footer_m">
+        {/* <div className="footer_m">
         	<div className="u_l">
             	<h5>Useful Links</h5>
                 <ul>
                     <li><Link to='/'>Home</Link></li>
                     <li className="active"><Link to='/About'>About Us</Link></li>
-                       {/* <li><Link to='/Services'>Services</Link></li> */}
+                     <li><Link to='/Services'>Services</Link></li> 
                     <li><a href="#">Media Coverage</a></li>
                     <li><Link to='/Admission'>Admission</Link> </li>
                     <li><Link to='/Appeal'>Appeal</Link></li>
@@ -41,7 +41,7 @@ Swami (Dinod),Hisar</p>
                 </ul>
             
             </div>
-            {/* <div className="s_l">
+             <div className="s_l">
             	<h5>Site Links</h5>
                 <ul>
                 	<li><Link to='/Admission'>Help & support</Link></li>
@@ -50,9 +50,9 @@ Swami (Dinod),Hisar</p>
                    <li><Link to='/Admission'>Return and Refund policy</Link></li>
             
                 </ul>
-            </div> */}
+            </div> 
             
-            {/* <div className="gall">
+             <div className="gall">
             <h5>Gallery</h5>
             	<div className="g_img">
                 <img src="image/gallery_img.png" />
@@ -64,9 +64,9 @@ Swami (Dinod),Hisar</p>
               
                 
                 </div>
-            </div> */}
+            </div> 
         </div>
-         <div style={{"clear":"both"}}></div>
+         <div style={{"clear":"both"}}></div> */}
         <div className="f_2">
         	<p>© 2017 Moksha. All Rights Reserved</p>
         </div>
