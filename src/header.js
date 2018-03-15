@@ -20,10 +20,10 @@ render() {
                <ul className="nav">
           	<li><Link to='/'>Home</Link></li>
 					<li className="active"><Link to='/About'>About Us</Link></li>
-					<li><a href="#">Media Coverage</a></li>
+					{/* <li><a href="#">Media Coverage</a></li> */}
 					{/* <li><Link to='/Services'>Services</Link> </li>   */}
 					<li><Link to='/Admission'>Admission</Link> </li>
-					<li><Link to='/Appeal'>Appeal</Link></li>
+					{/* <li><Link to='/Appeal'>Appeal</Link></li> */}
 					<li><Link to='/Contact'>Contact Us</Link></li>
               
         </ul>
@@ -57,9 +57,9 @@ render() {
 
 					<li><Link to='/About'>About Us</Link></li>
 					   {/* <li><Link to='/Services'>Services</Link></li> */}
-					<li><a href="#">Media Coverage</a></li>
+					{/* <li><a href="#">Media Coverage</a></li> */}
 					 <li><Link to='/Admission'>Admission</Link> </li>
-					 <li><Link to='/Appeal'>Appeal</Link></li>
+					 {/* <li><Link to='/Appeal'>Appeal</Link></li> */}
 					<li><Link to='/Contact'>Contact Us</Link></li>
                 </ul>
             </div>

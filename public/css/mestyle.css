@@ -155,7 +155,7 @@ color: white;
 
 .menu{
 	float:right;
-	width:61.65%;
+	width:41.70%;
 	padding-top:5px;
 	
 	}
@@ -550,10 +550,16 @@ h4{
 	
 	
 .left_wcu_t {
-	
+	text-align: initial;
 	line-height:1.5;
 	}	
-	
+
+.left_wcu_t ul li{
+	list-style-type: disc;
+	line-height: 26px;
+}
+
+}
 .button_2{
 	width:150px;
 	padding-top:40px;
@@ -653,6 +659,7 @@ h4{
 }
 .cont_main{
 		background-color: #272b33;
+		padding-bottom: 27px;
 		width: 80%;
 		margin-left: 12%;
 		font-size: 12px;
@@ -664,6 +671,7 @@ h4{
 	width:100%;
 	float:left;
 	margin-left:52px;
+	margin-bottom:55px
 	}
 
 .contact_l{
