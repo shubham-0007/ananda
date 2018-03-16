@@ -15,6 +15,15 @@
  }
 */
 
+.App {
+	background-color: #dededa;
+}
+.backg{
+	background-image: url(../image/banner.jpg);
+		background-repeat: no-repeat;
+		background-size: contain;
+}
+
 
 /*@media only screen and (max-width: 767 px){
  
@@ -155,8 +164,9 @@ color: white;
 
 .menu{
 	float:right;
-	width:41.70%;
+	width: 51.7%;
 	padding-top:5px;
+	
 	
 	}
 .menu ul{
@@ -169,6 +179,7 @@ color: white;
 	text-decoration:none;
 	color:#fff;
 	padding:11px 20px 11px 20px;
+	font-family: sans-serif;
 	background-color:#e9702b;
 }
 
@@ -648,9 +659,14 @@ h4{
 	padding-top:100px;
 	margin-top: -1%;
 	float:left;
+	background-color: #dededa;
 	width:100%;
 
 	}
+.contactPage{
+
+		background-color: #dededa;
+}
 .cont_main .footer{
 		background-image:url("../image/footer_bg.png");
 	background-repeat:no-repeat;
@@ -663,7 +679,6 @@ h4{
 		width: 80%;
 		margin-left: 12%;
 		font-size: 12px;
-	
 }
 
 
@@ -845,7 +860,8 @@ h6{
     	font-size: 2px;
 		margin-left: 12%;
 		width: 80%;
-		background-color: #272b33;
+		padding-bottom: 17px;
+		
 	/*	background: rgb(105,155,200);
 background: -moz-radial-gradient(top left, ellipse cover, rgba(105,155,200,1) 0%, rgba(181,197,216,1) 57%);
  background: -webkit-gradient(radial, top left, 0px, top left, 100%, color-stop(0%,rgba(105,155,200,1)), color-stop(57%,rgba(181,197,216,1)));
@@ -922,7 +938,39 @@ height: 100%;
   	font-size: 12px;
 		margin-left: 12%;
 		width: 80%;
-		background-color: #272b33;
+		/* background-color: #272b33; */
+  }
+
+
+
+  #note{
+	font-size: 30px;
+    margin: 40px 0px;
+    text-decoration: underline;
+}
+
+  .admission_li{
+	margin-top:3%;
+	text-align:left;
+	font-size: large;
+  }
+  .admission_li span{
+	font-size :16px;  
+	font-family: "Symbol";
+	color: #3D3D3D;
+  }
+  .admission_li ul li{
+	list-style-type: disc;
+	line-height: 2;
+	font-size:14px;
+  }
+  #process{
+	  text-align: center;
+	  font-size: 30px;
+	  margin:5%;
+  }
+  #process1 ul li{
+	  font-size: large;
   }
   .appeal {
   		font-size: 2px;
@@ -945,6 +993,7 @@ height: 100%;
   }
   .Hcontainer .footer h5 {
 color: azure;
+
   }
   .meservice h4 {
   	margin-top: 3%;
@@ -1144,7 +1193,8 @@ flex-direction: column;
     }
     .footer {
     	margin-top: 123%;
-    	width: 100%;
+		width: 100%;
+		background-color: #d5d0cd;
 
     }
     .right_testi{

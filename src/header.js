@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
-
+let a=0;
  class Header extends Component {
   constructor() {
     super();
@@ -8,6 +8,7 @@ import {Link} from 'react-router-dom';
 };
 
 render() {
+   
 	return(
 		<div>
 		<div className = "navbar navbar-inverse navbar-fixed-top">
@@ -18,14 +19,16 @@ render() {
      
               <div className="nav-collapse collapse">
                <ul className="nav">
-          	<li><Link to='/'>Home</Link></li>
+                	<li><Link to='/'>Home</Link></li>
+                    <li><Link to='/Roompage' refresh="true">Rooms</Link></li>
 					<li className="active"><Link to='/About'>About Us</Link></li>
 					{/* <li><a href="#">Media Coverage</a></li> */}
 					{/* <li><Link to='/Services'>Services</Link> </li>   */}
 					<li><Link to='/Admission'>Admission</Link> </li>
+                                        
 					{/* <li><Link to='/Appeal'>Appeal</Link></li> */}
 					<li><Link to='/Contact'>Contact Us</Link></li>
-              
+                     
         </ul>
       </div>
 
@@ -54,11 +57,12 @@ render() {
             <div className="menu">
             	<ul>
                 	<li><li><Link to='/'>Home</Link></li></li>
-
+                    <li><Link to='/Roompage'>Rooms</Link></li>
 					<li><Link to='/About'>About Us</Link></li>
 					   {/* <li><Link to='/Services'>Services</Link></li> */}
 					{/* <li><a href="#">Media Coverage</a></li> */}
 					 <li><Link to='/Admission'>Admission</Link> </li>
+                     
 					 {/* <li><Link to='/Appeal'>Appeal</Link></li> */}
 					<li><Link to='/Contact'>Contact Us</Link></li>
                 </ul>
