@@ -15,6 +15,7 @@ class RoomPage extends Component{
             <div className="active item"><img src='image/1.jpg' className="fadeshow"/></div>
             <div className="item"><img src='image/2.jpg' className="fadeshow"/></div>
             <div className="item"><img src='image/3.jpg' className="fadeshow"/></div>
+            <div className="item"><img src='image/4.jpg' className="fadeshow"/></div>
            
             <a  className="carousel-control left" href="#carousel" data-slide="prev">&lsaquo;</a>
             <a className="carousel-control right" href="#carousel" data-slide="next">&rsaquo;</a>
