@@ -11,22 +11,25 @@ import Footer from './footer.js'
 
 render() {
     return(
-        <div>
+        <div className="backg" >
         <div>
 
-<Header /> 
+        <Header /> 
 
         </div>
    
-      <div className= "aboutpage" >
+      <div className= "aboutpage">
       <div  className = "row">
 
 <div className= "col-md-12" style={{"background": "rgba(255,255,255,.5)", "marginTop": "200px","font-size":"4px"}}>
 <h2> About Us </h2>
 
-       <h4 style={{"marginTop":"2%"}}> 
-  Aananda is a Home for house Senior Citizens who are economically well-off and resourceful but due to certain prevailing circumstance they are aloof, fearful and worried about their future.
-The Working Efforts of The Aananda Could Make Possible Because of the Active Members of the Aananda  which make efforts to Maintain this type of Organisation and this are :-   
+       <h4 style={{"marginTop":"2%",textAlign:"justify"}}> 
+       The aim of Aananda is to maintain the dignity of
+        Senior citizens and to help them live their life with honor. 
+        We help them work on their interests like teaching, writing, cooking, social service, gardening, etc.
+<div style={{padding:"10px 0px"}}>Residents who have interests in arts such as drawing, 
+  painting, acting, etc. are aligned with local groups who organize workshops or performances.</div>
 
 
 
@@ -97,13 +100,6 @@ similar-minded people who want to do something for the welfare and betterment of
      He is founder of Moksha Old Age Home and Shaishav Kunj. Both institutions is the need of hour
 and society.He is nominated member of District Child Protection Unit, Hisar from 2015 to till date. 
 </p>    </div>   </div>
-    <div className="second_div_1" style={{"background": "rgba(255,255,255,.5)", "border": "5px Solid black"}}>
-      <img src="../image/client4.jpg"className="img-responsive r"   id="r" />
-      <div className="content_about">
-       <h2>Nitin Goel </h2>
-   <p>   
-     He is associate member of Moksha Old Age Home and Shaishav Kunj. Nitin Ji  helps in managing and maintaining the Web Presence.  </p>
-    </div>    </div>
     
     <div className="second_div_1" style={{"background": "rgba(255,255,255,.5)", "border": "5px Solid black"}}>
       <img src="../image/client03.jpg"className="img-responsive r"   id="r" />

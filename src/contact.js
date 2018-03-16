@@ -70,7 +70,7 @@ componentDidMount() {
 render() {
     return(
     	<div className="cont_main"> 
-        <Header />
+        
     			{/* <div>
 		<div className = "navbar navbar-inverse navbar-fixed-top">
           <div className="navbar-inner">
@@ -127,6 +127,7 @@ render() {
            <div style={{"clear" :"both"}}></div>
 	</div>
 </div> */}
+<Header />
     <div className="greet_contact" style={{"color": "white"}}>
   YOU CAN DO QUERRY REGARDING THE Aananda BY CALLING ON THE NUMBER :- +91-9466611224, +91-9729061000 <br/> <br/>  <br/>OR YOU CAN DROP YOUR EMAIL IN THE UNDERSIGNED MESSAGE BOX BY CLICKING ON CONTACT BUTTON AND AFTER TYPING YOUR MESSAGE CLICK ON SEND BUTTON
 
@@ -170,8 +171,11 @@ render() {
 	<span className="top_flap close_sesame"></span>
 	<span className="side_flaps"></span>
 	<span className="bottom_flap"></span>
+
 </div>
+<div style={{backgroundColor: '#d5d0cd'}}>
 <Footer />
+</div>
 </div>
          )
 

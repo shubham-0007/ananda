@@ -7,10 +7,11 @@ import Header from './header.js';
 import Footer from './footer.js'
 import Hcontainer from './hcontainer.js'
 import Aboutus from './aboutus.js'
-import Services from './services.js'
+// import Services from './services.js'
 import Admission from './admission.js'
 import Appeal from './appeal.js'
 import Contact from './contact.js'
+import RoomPage from './roompage';
 
 class App extends Component {
   render() {
@@ -20,10 +21,13 @@ class App extends Component {
            <Switch>
       <Route exact path='/' component={Hcontainer}/>
       <Route path='/About' component={Aboutus}/>
-      <Route path='/Services' component={Services}/>
+      {/* <Route path='/Services' component={Services}/> */}
       <Route path='/Admission' component={Admission}/>
       <Route path='/Appeal' component={Appeal}/>
       <Route path='/Contact' component={Contact}/>
+      <Route path='/Roompage' component={RoomPage}/>
+     
+      
       
          </Switch>
          
