@@ -3,7 +3,6 @@ import {Link} from 'react-router-dom';
 import Header from './header.js';
 import Footer from './footer.js';
 import $ from 'jquery';
-import Bookmark from 'react-bookmark';
 
 
   class Admission extends Component {
