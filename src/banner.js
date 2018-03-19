@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
-
+import $ from 'jquery';
 
 
  class Banner extends Component {
@@ -8,6 +8,9 @@ import {Link} from 'react-router-dom';
     super();
 
 };
+componentDidMount() {
+    window.scrollTo(0, 0);
+  }
 
 render() {
     return(

@@ -6,16 +6,16 @@ module.exports = {
            var transporter = nodemailer.createTransport({
             service: 'Gmail',
             auth: {
-            user: 'anandahisar@gmail.com', // Your email id
-            pass: 'Aananda18787' // Your password
+                user: 'anandahisar@gmail.com', // Your email id
+                pass: 'Aananda18787' // Your password
         }
     });
            
            var mailOptions = {
-    from: 'anandahisar@gmail.com', // sender address
-    to:  'vijay.bhrigu@gmail.com', // list of receivers
+            from: 'anandahisar@gmail.com', // sender address
+            to:  'vijay.bhrigu@gmail.com',  // list of receivers
     subject: 'New Aaanada Website User Querry', // Subject line //, // plaintext body
-    html: 'Hello Sir,The Following Person Wants to Querry from you Regarding the Aaanada  '+"<br/>"+'<h2> The Mail Id is:- </h2>' +" "+ arg.email+ "<br>"+'<h2> Name is:- </h2>' +" "+ arg.name+ "<br>" + '<h2> Message is:-</h2>'+" "+arg.message+ " " // You can choose to send an HTML body instead
+    html: 'Hello Sir,The Following Person Wants to Querry from you Regarding the Aaanada  '+"<br/>"+'<h2> Name:</h2>' +" "+ arg.name+"<br/>"+'<h2> Contact Number: </h2>' +" "+ arg.contact+ "<br>"+'<h2>E-Mail: </h2>' +" "+ arg.email+ "<br>" + '<h2> Message:</h2>'+" "+arg.message+ " " // You can choose to send an HTML body instead
 };
 transporter.sendMail(mailOptions, function(error, info){
     if(error){

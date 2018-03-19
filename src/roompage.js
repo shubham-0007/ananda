@@ -2,27 +2,31 @@ import React, { Component } from 'react';
 import Header from './header';
 import Footer from './footer';
 import './App.css';
-
+import Admission from './admission';
+import {Link} from 'react-router-dom';
+import $ from 'jquery';
 class RoomPage extends Component{
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+
   render() {
+    
     return (
       <div >
 
-        <Header />
-       <div id="carousel" className="carousel slide carousel-fade" data-ride="carousel">
-      
-        <div className="carousel-inner">
-            <div className="active item"><img src='image/1.jpg' className="fadeshow"/></div>
-            <div className="item"><img src='image/2.jpg' className="fadeshow"/></div>
-            <div className="item"><img src='image/3.jpg' className="fadeshow"/></div>
-            <div className="item"><img src='image/4.jpg' className="fadeshow"/></div>
-           
-            <a  className="carousel-control left" href="#carousel" data-slide="prev">&lsaquo;</a>
-            <a className="carousel-control right" href="#carousel" data-slide="next">&rsaquo;</a>
-        </div>
-    
+        <div id="carousel" className="carousel slide carousel-fade" data-ride="carousel">
         
-  </div>
+          <div className="carousel-inner">
+              <div className="active item"><img src='image/1.jpg' className="fadeshow"/></div>
+              <div className="item"><img src='image/2.jpg' className="fadeshow"/></div>
+              <div className="item"><img src='image/3.jpg' className="fadeshow"/></div>
+              <div className="item"><img src='image/4.jpg' className="fadeshow"/></div>
+            
+              <a  className="carousel-control left" href="#carousel" data-slide="prev">&lsaquo;</a>
+              <a className="carousel-control right"  href="#carousel" data-slide="next">&rsaquo;</a>
+          </div>
+    </div>
         
         {/*Amenities section */}
         <div className="container">
@@ -100,7 +104,8 @@ class RoomPage extends Component{
             </div>
           </div>
         </div>{/*closed container*/}
-        <Footer />
+        <div className="button_1" style={{paddingTop:"0px"}}  ><Link to ="/admission" className="btn-8"  >Know More</Link></div>
+
       </div>
     );
   }

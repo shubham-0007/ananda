@@ -137,7 +137,7 @@ p{
 .btn-8:hover{
 background-color: #e86920;
 color: white;	
- font-size: 14px; 
+ font-size: 10px; 
 }
 .btn:before {
 	 transform: translateY(-100%);
@@ -157,14 +157,14 @@ color: white;
 	}
 	
 .logo{
-	padding-left:9%;
+	padding-left:2.7%;
 	float:left;
 	}
 
 
 .menu{
 	float:right;
-	width: 51.7%;
+	width: 47%;
 	padding-top:5px;
 	
 	
@@ -408,7 +408,8 @@ color: white;
     margin:auto;
     width:150px;
     flex: 1;
-    padding-top:40px;
+	padding-top:40px;
+	font-size: 12px;
     }   
     
 .button_1 a{
@@ -561,6 +562,7 @@ h4{
 	
 	
 .left_wcu_t {
+	margin-top: 2%;
 	text-align: initial;
 	line-height:1.5;
 	}	
@@ -664,8 +666,22 @@ h4{
 
 	}
 .contactPage{
+	background-image: url(../image/banner.jpg);
+    background-repeat: no-repeat;
+    height: 689px;
+    background-size: contain;
 
 		background-color: #dededa;
+}
+textarea{
+	width: 70%;
+	font-size: 16px !important;
+	font-family: monospace !important;
+	background: #ccc7c8;
+	background-color: white;
+	border: 0;
+	margin:2%;
+	color:black !important;
 }
 .cont_main .footer{
 		background-image:url("../image/footer_bg.png");
@@ -674,8 +690,7 @@ h4{
 	margin-top: -3%;
 }
 .cont_main{
-		background-color: #272b33;
-		padding-bottom: 27px;
+	background: rgba(255, 255, 255, 0.5);
 		width: 80%;
 		margin-left: 12%;
 		font-size: 12px;
@@ -755,7 +770,56 @@ h5{
 	color: azure;
 	
 }	
+.formCont{
+	margin-top: 16%;
+	width:100%;
+	padding: 3.7% 0;
+	float:left;
+	background: rgba(255, 255, 255, 0.5);
+    margin-bottom: 4%;
+}
 
+.adrs_rt{
+float:left;
+width:100%;
+line-height: 2;
+font-weight: 600;
+padding:6% 0;
+
+}
+.adrs_rt p{
+	font-size: 17px;
+}
+.form_lft{
+	width:50%;
+	float:left;
+
+}
+
+.form_rt{
+	width:49%;
+	float:left;
+	margin-top: 3%;
+}
+
+.form_rt section input{
+	margin: 2%;
+	width:70%;
+	font-size: 16px;
+	font-family: monospace;
+	background-color: white;
+}
+form{
+	
+    margin: 0 0 20px;
+}
+.sndBtn{	
+	margin-top:2%;
+}
+.sndBtn input{
+	background-color: #e9702f !important;
+	
+}
 .f_m{
 	margin:0;
 	padding:0;
@@ -945,7 +1009,7 @@ height: 100%;
 
   #note{
 	font-size: 30px;
-    margin: 40px 0px;
+    margin: 26px 0px;
     text-decoration: underline;
 }
 
@@ -953,7 +1017,8 @@ height: 100%;
 	margin-top:3%;
 	text-align:left;
 	font-size: large;
-  }
+	line-height: 2.7;
+}
   .admission_li span{
 	font-size :16px;  
 	font-family: "Symbol";
@@ -967,7 +1032,7 @@ height: 100%;
   #process{
 	  text-align: center;
 	  font-size: 30px;
-	  margin:5%;
+	  margin:3%;
   }
   #process1 ul li{
 	  font-size: large;
@@ -983,10 +1048,10 @@ height: 100%;
   	font-family: "Arial";
   }
   .greet_contact{
+	  margin-bottom: 4%;
   	width: 60%;
     height: 100%;
     background-color: #ff5200;
-    margin-top: 18%;
     padding-top: 76px;
     margin-left: 24%;
     font-size: 20px;
