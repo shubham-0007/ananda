@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
-import Footer from './footer.js'
+
 import $ from 'jquery';
-import Header from './header';
-  class Contact extends Component {
+class Contact extends Component {
   constructor() {
     super();
     this.state = {
       name: '',
       email: '',
+      contact:'',
       message: '',
 
     }
@@ -16,6 +16,7 @@ this.forgfun = this.forgfun.bind(this);
 this.statehdl = this.statehdl.bind(this);
 
 };
+
 
  forgfun(e) {
               e.preventDefault();
@@ -35,7 +36,7 @@ this.statehdl = this.statehdl.bind(this);
                  })
                     )
                     .catch((error)=>console.log("Error in fetch",error))
-
+                    
                };
   statehdl(e) {
              let key = [e.target.name] ;
@@ -65,11 +66,14 @@ componentDidMount() {
     $('.send_me').fadeOut(300);
     $('.contact_me').fadeIn(300);
   });    
+  window.scrollTo(0, 0);
     }
 
 render() {
     return(
-    	<div className="cont_main"> 
+        
+    	<div className="cont_main" > 
+
         
     			{/* <div>
 		<div className = "navbar navbar-inverse navbar-fixed-top">
@@ -127,12 +131,38 @@ render() {
            <div style={{"clear" :"both"}}></div>
 	</div>
 </div> */}
-<Header />
-    <div className="greet_contact" style={{"color": "white"}}>
-  YOU CAN DO QUERRY REGARDING THE Aananda BY CALLING ON THE NUMBER :- +91-9466611224, +91-9729061000 <br/> <br/>  <br/>OR YOU CAN DROP YOUR EMAIL IN THE UNDERSIGNED MESSAGE BOX BY CLICKING ON CONTACT BUTTON AND AFTER TYPING YOUR MESSAGE CLICK ON SEND BUTTON
 
+   
+    <div className="formCont">
+    <h2>Contact Us</h2>
+<div className="form_lft">
+
+<div className="adrs_rt">
+<p>Aananda<br/>8th Km Milestone Kaimiri Road<br/> Hisar-125001 <br/>Haryana <br/> Contact No:- +91-9466611224, +91-9729061000</p>
     </div>
-       <div className="envelope">
+</div>
+<div className="form_rt">
+<form onSubmit={this.forgfun}>
+
+            <section>
+             <input type="text" name="name" onChange = {this.statehdl} placeholder="Name"/>
+            </section>
+            <section>
+                <input type="email" name="email" onChange = {this.statehdl} placeholder="Email"/>
+            </section>
+            <section>
+                <input type="text" name="contact" onChange = {this.statehdl} placeholder="Contact Number"/>
+            </section>
+            <section>
+                <textarea style={{height: "61px"}} name="message" onChange = {this.statehdl} placeholder="Please describe your requirement"/>
+            </section>
+            <section className="sndBtn">
+                <input  type="Submit" style={{width:"72%"}} defaultValue="Send"/>
+            </section>
+</form>
+</div>
+</div>
+       {/* <div className="envelope">
 	<div className="contact_form">
 		<span className="reset">X</span>
 		<form onSubmit= {this.forgfun} name="contact" action="POST" id="say_hi">
@@ -172,9 +202,8 @@ render() {
 	<span className="side_flaps"></span>
 	<span className="bottom_flap"></span>
 
-</div>
+</div> */}
 <div style={{backgroundColor: '#d5d0cd'}}>
-<Footer />
 </div>
 </div>
          )

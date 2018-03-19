@@ -17,7 +17,6 @@ api.sendmet(data,function(err,result){
         if(err) { 
           return  res.send(err); 
         }
-
           else {
               return res.send(result); 
           }

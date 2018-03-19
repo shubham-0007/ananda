@@ -1,30 +1,30 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
 import Header from './header.js';
-import Footer from './footer.js'
+import Footer from './footer.js';
+import Roompage from './roompage';
+import $ from 'jquery';
 
   class Aboutus extends Component {
   constructor() {
     super();
 
 };
-
+componentDidMount() {
+  window.scrollTo(0, 0);
+}
 render() {
     return(
         <div className="backg" >
-        <div>
-
-        <Header /> 
-
-        </div>
+   
    
       <div className= "aboutpage">
       <div  className = "row">
 
-<div className= "col-md-12" style={{"background": "rgba(255,255,255,.5)", "marginTop": "200px","font-size":"4px"}}>
+<div className= "col-md-12" style={{"background": "rgba(255,255,255,.5)", "marginTop": "200px","fontSize":"4px"}}>
 <h2> About Us </h2>
 
-       <h4 style={{"marginTop":"2%",textAlign:"justify"}}> 
+       <h4 style={{"marginTop":"2%",textAlign:"justify" ,padding:"0px"}}> 
        The aim of Aananda is to maintain the dignity of
         Senior citizens and to help them live their life with honor. 
         We help them work on their interests like teaching, writing, cooking, social service, gardening, etc.
@@ -38,7 +38,7 @@ render() {
 
       </div>
          <div className="second_div">
-<h2 style={{"width": "100%"}}>Our Motivation </h2>
+{/* <h2 style={{"width": "100%"}}>Our Motivation </h2>
 <div id="myCarousel" className="carousel slide" data-ride="carousel">
   
     <ol className="carousel-indicators">
@@ -80,7 +80,7 @@ render() {
       <span className="glyphicon glyphicon-chevron-right"></span>
         
     </a>
-  </div>
+  </div> */}
 <h2 style={{"width": "100%"}}>Our Team </h2>
 <div className="second_div_1" style={{"background": "rgba(255,255,255,.5)", "border": "5px Solid black"}}>
      <img src="../image/client0001.JPG" className="img-responsive r"  id="r" />
@@ -98,7 +98,7 @@ similar-minded people who want to do something for the welfare and betterment of
   <div className="content_about"> <h2>Vijay Bhrigu</h2>
    <p>   
      He is founder of Moksha Old Age Home and Shaishav Kunj. Both institutions is the need of hour
-and society.He is nominated member of District Child Protection Unit, Hisar from 2015 to till date. 
+and society. He is nominated member of District Child Protection Unit, Hisar from 2015 to till date. 
 </p>    </div>   </div>
     
     <div className="second_div_1" style={{"background": "rgba(255,255,255,.5)", "border": "5px Solid black"}}>
@@ -106,13 +106,13 @@ and society.He is nominated member of District Child Protection Unit, Hisar from
       <div className="content_about">
        <h2>Mukesh Jain  </h2>
    <p>   
-     He is associate member of Moksha Old Age Home and Shaishav Kunj. Mukesh Ji  is always busy in doing Social Welfare Works. He  is also a member of other organisation such as associate member In Haryana Goshala ,President of Punyadyo Atishya Shasta, Hansi. </p>
+     He is associate member of Moksha Old Age Home and Shaishav Kunj. Mukesh Ji  is always busy in doing Social Welfare Works. He  is also a member of other organisation such as associate member In Haryana Goshala , President of Punyadyo Atishya Shasta, Hansi. </p>
     </div>    </div>
     </div>
   <div style={{"clear":"both"}}></div>
-       
+  <div className="button_1" ><Link to ="/admission" className="btn-8" >Know More</Link></div>
     </div>
-    <Footer />
+  
 
     </div>
           

@@ -1,31 +1,34 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
 import Header from './header.js';
-import Footer from './footer.js'
+import Footer from './footer.js';
+import $ from 'jquery';
+import Bookmark from 'react-bookmark';
 
 
   class Admission extends Component {
   constructor() {
     super();
-
     };
-
+    componentDidMount() {
+      window.scrollTo(0, 0);
+    }
     
 render() {
+
     return(
     	<div style={{backgroundImage: 'url(../image/banner.jpg)',
         backgroundRepeat: "no-repeat",
         backgroundSize: "contain"}}>
-      
 
-<Header /> 
+
 
 
      <div className="admission">
 
       <div  className = "row">
 
-<div className= "col-md-12" style={{"background": "rgba(255,255,255,.5)", "marginTop": "200px","font-size":"4px","padding-bottom":"5%"}}>
+<div className= "col-md-12" style={{"background": "rgba(255,255,255,.5)", marginTop: "200px","fontSize":"4px","paddingBottom":"5%"}}>
 <h2>Rules for living in Aananda </h2>
 
 <h4>
@@ -99,8 +102,8 @@ render() {
 
 </h4>
 
-
-<h3 style={{marginTop:"2%"}}> For any querry regarding Admission in Aananda   </h3>
+<div className="button_1" style={{paddingTop:"0px"}} ><Link to ="/contact-us" className="btn-8" >Contact US</Link></div>
+{/* <h3 style={{marginTop:"2%"}}> For any querry regarding Admission in Aananda   </h3>
 <div className="Footr_admis">
 <div className="call_admis" style={{"marginRight": "27%","marginTop":"3%"}}>
 <span ><img src="../image/phone.png" className="img-responsive" width="7%" />  </span>
@@ -116,7 +119,7 @@ Hisar-125001
 Haryana
   </span>
 </div>
-</div>
+</div> */}
 
       </div>
 </div>
@@ -127,7 +130,7 @@ Haryana
   <div style={{"clear":"both"}}></div>
        
     </div>
-<Footer />
+
     </div>
 
 

@@ -12,12 +12,10 @@ import Footer from './footer.js'
   render() {
     return (
       <div className="Hcontainer">
-         <Header />
          <Banner />
          <Tabdiv />
          <Wcu />
          <Testi />
-         <Footer />
       </div>
     );
   }
