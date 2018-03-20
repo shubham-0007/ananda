@@ -560,7 +560,24 @@ h4{
 	      
 	}	
 	
-	
+.bottomBtn{
+	width: 100%;
+	float:left;
+}
+
+.bottomBtn div{
+	float: left;
+}
+.bottomBtn .btn1{
+	margin-left: 30%;
+	width: 18%;
+    font-size: 11px;
+}
+.bottomBtn .btn2{
+	margin-left: 8%;
+	width: 18%;
+    font-size: 11px;
+}
 .left_wcu_t {
 	margin-top: 2%;
 	text-align: initial;

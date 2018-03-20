@@ -110,7 +110,10 @@ and society. He is nominated member of District Child Protection Unit, Hisar fro
     </div>    </div>
     </div>
   <div style={{"clear":"both"}}></div>
-  <div className="button_1" ><Link to ="/admission" className="btn-8" >Know More</Link></div>
+  <div className="bottomBtn">
+       <div className="button_1 btn1" ><Link to ="/rooms" className="btn-8" >ROOM FACILITY</Link></div>
+       <div className="button_1 btn2" ><Link to ="/admission" className="btn-8" >ADMISSION PROCESS</Link></div>
+   </div> 
     </div>
   
 

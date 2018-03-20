@@ -1,6 +1,16 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+// import './assets/js/jquery.js';
+// import './assets/js/bootstrap.js';
+import './assets/css/bootstrap.css';
+import './assets/css/bootstrap-responsive.css';
+import './assets/css/mestyle.css';
+import './assets/css/mystyle.css';
+import './assets/css/style.css';
+import './assets/css/style2.css';
+import './assets/js/itsjq.js';
+import './assets/js/myJs.js';
 import { Switch, Route } from 'react-router-dom'
 
 import Header from './header.js';

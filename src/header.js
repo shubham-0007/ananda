@@ -21,7 +21,7 @@ render() {
                <ul className="nav">
                 	<li><Link to='/'>Home</Link></li>
                    
-					<li className="active"><Link to='/About'>About Us</Link></li>
+					<li className="active"><Link to='/about-us'>About Us</Link></li>
                     <li><Link to='/rooms' refresh="true">Rooms</Link></li>
 					{/* <li><a href="#">Media Coverage</a></li> */}
 					{/* <li><Link to='/Services'>Services</Link> </li>   */}
@@ -59,7 +59,7 @@ render() {
             	<ul>
                 	<li><Link to='/'>Home</Link></li>
                     
-					<li><Link to='/about'>About Us</Link></li>
+					<li><Link to='/about-us'>About Us</Link></li>
 					<li><Link to='/rooms'>Rooms</Link></li>
                        {/* <li><Link to='/Services'>Services</Link></li> */}
 					{/* <li><a href="#">Media Coverage</a></li> */}
