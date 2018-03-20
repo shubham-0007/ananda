@@ -30,7 +30,7 @@ this.statehdl = this.statehdl.bind(this);
                  body: JSON.stringify(this.state)
              }
                  console.log("OPT >>",opt);
-             fetch("http://localhost:8081/sendmail", opt)
+             fetch("http://139.162.5.142:8081/sendmail", opt)
                     .then((response) => response.json().then((responseJson) => {//this.props.history.push('/Login'); 
                      console.log("Response from server",responseJson);
                  })
@@ -212,3 +212,5 @@ render() {
 }
 
 export default Contact;
+
+
