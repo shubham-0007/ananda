@@ -29,7 +29,7 @@ render() {
                     <marquee> <p className="w_text">Welcome to Aananda. Have A Nice Day</p> </marquee><br />
                     <p className="p_text">Aananda is a Senior Citizens Home for economically<br/> well-off and resourceful
                      seniors who are living aloof, fearful and worried about their future due to personal circumstances.</p>
-                    <div className="button"><Link to ="/About" className="btn-bnr" >Read More</Link></div>
+                    <div className="button"><Link to ="/about-us" className="btn-bnr" >Read More</Link></div>
                 
                 </div>
           </div>

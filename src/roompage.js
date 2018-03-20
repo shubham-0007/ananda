@@ -104,7 +104,7 @@ class RoomPage extends Component{
             </div>
           </div>
         </div>{/*closed container*/}
-        <div className="button_1" style={{paddingTop:"0px"}}  ><Link to ="/admission" className="btn-8"  >Know More</Link></div>
+        <div className="button_1" style={{paddingTop:"0px",width:"15%",fontSize:'11px'}}  ><Link to ="/admission" className="btn-8"  >ADMISSION PROCESS</Link></div>
 
       </div>
     );
