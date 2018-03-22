@@ -14,8 +14,6 @@ import Contact from './contact.js'
 import RoomPage from './roompage';
 
 
-
-
 class App extends Component {
   render() {
     return (
