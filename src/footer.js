@@ -19,7 +19,7 @@ render() {
 Swami (Dinod),Hisar</p>
             </div>
             <div className="contact_e">
-            <p className="e_t">vijay.bhrigu@gmail.com</p>
+            <p className="e_t">vijay.bhrigu@gmail.cm</p>
             </div>
             <div className="contact_c">
             <p className="l_t">+91-9466611224<br />
