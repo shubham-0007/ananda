@@ -18,10 +18,15 @@ class RoomPage extends Component{
         <div id="carousel" className="carousel slide carousel-fade" data-ride="carousel">
         
           <div className="carousel-inner">
-              <div className="active item"><img src='image/1.jpg' className="fadeshow"/></div>
-              <div className="item"><img src='image/2.jpg' className="fadeshow"/></div>
-              <div className="item"><img src='image/3.jpg' className="fadeshow"/></div>
-              <div className="item"><img src='image/4.jpg' className="fadeshow"/></div>
+              <div className="active item"><img src='image/anandapics/1.jpg' className="fadeshow"/></div>
+              <div className="item"><img src='image/anandapics/2.jpg' className="fadeshow"/></div>
+              <div className="item"><img src='image/anandapics/3.jpg' className="fadeshow"/></div>
+              <div className="item"><img src='image/anandapics/4.jpg' className="fadeshow"/></div>
+              <div className="item"><img src='image/anandapics/5.jpg' className="fadeshow"/></div>
+              <div className="item"><img src='image/anandapics/6.jpg' className="fadeshow"/></div>
+              <div className="item"><img src='image/anandapics/7.jpg' className="fadeshow"/></div>
+              <div className="item"><img src='image/anandapics/8.jpg' className="fadeshow"/></div>
+              <div className="item"><img src='image/anandapics/9.jpg' className="fadeshow"/></div>
             
               <a  className="carousel-control left" href="#carousel" data-slide="prev">&lsaquo;</a>
               <a className="carousel-control right"  href="#carousel" data-slide="next">&rsaquo;</a>
